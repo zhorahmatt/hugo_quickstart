@@ -1,5 +1,5 @@
 # Site settings
-baseUrl = "amazing-noyce-2303f1.netlify.com"
+baseUrl = "https://amazing-noyce-2303f1.netlify.com/"
 languageCode = "en-us"
 title = "Agency"
 theme = "hugo-agency-theme"

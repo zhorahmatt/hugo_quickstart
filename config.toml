@@ -1,7 +1,7 @@
 # Site settings
 baseUrl = "https://amazing-noyce-2303f1.netlify.com/"
 languageCode = "en-us"
-title = "Agency"
+title = "Ma'Seli - Sepeda Lipat Makassar"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -46,14 +46,26 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Ma'Seli"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+
+    services = "Info Event"
+    portfolio = "Peserta"
+    about = "Galeri"
+    team = "Berita"
+    contact = "Kontak"
+
+    #new content
+    beranda = "Beranda"
+    info = "Info Kegiatan"
+    peserta = "Peserta"
+    hotel = "Hotel"
+    berita = "Berita"
+    galeri = "Galeri"
+    kontak = "Kontak"
+    daftar = "Daftar"
+
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -68,7 +80,7 @@ googleAnalytics = ""
     # postpended links
     [[menu.postpend]]
       url = "http://gohugo.io"
-      name = "External link"
+      name = "Daftar"
       weight = 10
 
 
@@ -76,9 +88,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "dengan Sepeda Lipat"
+    subtitle = "Jelajah Sulawesi Selatan"
+    buttonText = "Registrasi"
 
 
   # Services section
@@ -101,6 +113,22 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Web"

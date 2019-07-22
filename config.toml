@@ -52,7 +52,7 @@ googleAnalytics = ""
 
     services = "Info Event"
     portfolio = "Peserta"
-    about = "Galeri"
+    about = "Beranda"
     team = "Berita"
     contact = "Kontak"
 
@@ -60,7 +60,6 @@ googleAnalytics = ""
     beranda = "Beranda"
     info = "Info Kegiatan"
     peserta = "Peserta"
-    hotel = "Hotel"
     berita = "Berita"
     galeri = "Galeri"
     kontak = "Kontak"
@@ -93,51 +92,61 @@ googleAnalytics = ""
     buttonText = "Registrasi"
 
 
+  # Info Event
+  [params.info]
+      enable = true
+      title = "Info Event"
+      subtitle = "Dapatkan beragam infomasi tentang Ma'Seli"
+
+      [[params.info.row]]
+
+      [[params.info.row.list]]
+        icon = "fa-shopping-cart"
+        title = "Hotel"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        url = "#"
+
+      [[params.info.row.list]]
+        icon = "fa-laptop"
+        title = "Transportasi"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        url = "#"
+
+      [[params.info.row.list]]
+        icon = "fa-lock"
+        title = "Wisata Makanan"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        url = "#"
+
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Info Event"
+    subtitle = "Dapatkan beragam infomasi tentang Ma'Seli"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
+      title = "Hotel"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
+      title = "Transportasi"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
+      title = "Wisata Makanan"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -189,7 +198,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -330,7 +339,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Sepeda Lipat Makassar"
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -343,14 +352,14 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Facebook"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
+      icon = "fa-instagram"
       link = "#"
-      title = "LinkedIn"
+      title = "Instagram"
 
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
+      text = "Kebijakan Privasi"
       link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = "Petunjuk"
       link = "#"

@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "Ma'Seli - Sepeda Lipat Makassar"
   description = "Your description"
   # email = "your@email.com"
 
@@ -25,6 +25,7 @@ googleAnalytics = ""
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
+  link_registration = "https://aaaa.com"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -78,7 +79,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
+      url = "https://aaaa.com"
       name = "Daftar"
       weight = 10
 
@@ -189,34 +190,32 @@ googleAnalytics = ""
     enable = true
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "Saya <br>Tertarik!!!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#      date = "2009-2011"
+      title = "Keindahan Kawasan Karst"
+      description = "Geopark Maros-Pangkep telah ditetapkan sebagai taman nasional geopark sejak 24 November 2017 lalu. Status itu diberikan oleh Komite Nasional Geopark Indonesia pada Seminar Nasional Geopark di Belitung lewat penyerahan sertifikat. Sertifikat itu pula yang menjadi syarat utama agar Geopark Maros-Pangkep dapat diajukan menjadi UNESCO Global Geopark. Jejeran gugusan batu menjadi daya tarik tersendiri dari kekayaan alam Indonesia ini, Seperti kawasan karst pada umumnya, Geopark Maros-Pangkep juga dihiasi banyak gua. Gua-gua itu menyimpan kekayaan hayati yang tak ternilai. Selain itu, jejak kehidupan manusia prasejarah juga ditemukan di dalam sejumlah gua."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Keindahan Kawasan Karst"
+      description = "Geopark Maros-Pangkep telah ditetapkan sebagai taman nasional geopark sejak 24 November 2017 lalu. Status itu diberikan oleh Komite Nasional Geopark Indonesia pada Seminar Nasional Geopark di Belitung lewat penyerahan sertifikat. Sertifikat itu pula yang menjadi syarat utama agar Geopark Maros-Pangkep dapat diajukan menjadi UNESCO Global Geopark. Jejeran gugusan batu menjadi daya tarik tersendiri dari kekayaan alam Indonesia ini, Seperti kawasan karst pada umumnya, Geopark Maros-Pangkep juga dihiasi banyak gua. Gua-gua itu menyimpan kekayaan hayati yang tak ternilai. Selain itu, jejak kehidupan manusia prasejarah juga ditemukan di dalam sejumlah gua."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Keindahan Kawasan Karst"
+      description = "Geopark Maros-Pangkep telah ditetapkan sebagai taman nasional geopark sejak 24 November 2017 lalu. Status itu diberikan oleh Komite Nasional Geopark Indonesia pada Seminar Nasional Geopark di Belitung lewat penyerahan sertifikat. Sertifikat itu pula yang menjadi syarat utama agar Geopark Maros-Pangkep dapat diajukan menjadi UNESCO Global Geopark. Jejeran gugusan batu menjadi daya tarik tersendiri dari kekayaan alam Indonesia ini, Seperti kawasan karst pada umumnya, Geopark Maros-Pangkep juga dihiasi banyak gua. Gua-gua itu menyimpan kekayaan hayati yang tak ternilai. Selain itu, jejak kehidupan manusia prasejarah juga ditemukan di dalam sejumlah gua."
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#    [[params.about.events]]
+#      img = "4.jpg"
+#      date = "July 2014"
+#      title = "Phase Two Expansion"
+#      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
@@ -234,42 +233,36 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "1.jpg"
       name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
     [[params.team.members]]
       img = "2.jpg"
       name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
     [[params.team.members]]
       img = "3.jpg"
       name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    [[params.team.members]]
+          img = "1.jpg"
+          name = "Kay Garland"
+
+        [[params.team.members]]
+          img = "2.jpg"
+          name = "Larry Parker"
+
+        [[params.team.members]]
+          img = "3.jpg"
+          name = "Diana Pertersen"
+[[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
 
   # Client section
     [params.clients_list]

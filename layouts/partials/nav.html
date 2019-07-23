@@ -54,15 +54,15 @@
         </li>
         {{ end }}
         <!--    Berita  -->
-        {{ if .Site.Params.berita.enable }}
-        <li>
-          <a class="page-scroll" href="{{ .Site.BaseURL }}#berita">{{ with .Site.Params.navigation.berita }}{{ . }}{{ end }}</a>
-        </li>
-        {{ end }}
+<!--        {{ if .Site.Params.berita.enable }}-->
+<!--        <li>-->
+<!--          <a class="page-scroll" href="{{ .Site.BaseURL }}#berita">{{ with .Site.Params.navigation.berita }}{{ . }}{{ end }}</a>-->
+<!--        </li>-->
+<!--        {{ end }}-->
         <!--    Galeri -->
         {{ if .Site.Params.galeri.enable }}
         <li>
-          <a class="page-scroll" href="{{ .Site.BaseURL }}#galeri">{{ with .Site.Params.navigation.galeri }}{{ . }}{{ end }}</a>
+          <a href="{{ .Site.BaseURL }}#galeri">{{ with .Site.Params.navigation.galeri }}{{ . }}{{ end }}</a>
         </li>
         {{ end }}
         <!--    Kontak  -->
@@ -81,7 +81,7 @@
 
         {{ range .Site.Menus.postpend }}
           <li>
-            <a id="custom-link" style="background-color: #fec503" href="{{ .URL }}">{{ .Name }}</a>
+            <a target="_blank" id="custom-link" style="background-color: #fec503" href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>

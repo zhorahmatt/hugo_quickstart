@@ -751,6 +751,17 @@ aside .heading {
     margin-bottom: -40px;
 }
 
+section#infoevent {
+    background-color: #222;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#infoevent .section-heading {
+    color: #fff;
+}
+
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);

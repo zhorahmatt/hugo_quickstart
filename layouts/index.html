@@ -7,28 +7,59 @@
     {{ partial "nav.html" . }}
     {{ partial "hero.html" . }}
 
-    {{ if .Site.Params.about.enable }}
-      {{ partial "about.html" . }}
+
+<!--    Beranda   -->
+    {{ if .Site.Params.beranda.enable }}
+      {{ partial "beranda.html" . }}
     {{ end }}
-
-
-    {{ if .Site.Params.contact.enable }}
-    {{ partial "contact.html" . }}
+<!--    Info Event -->
+    {{ if .Site.Params.info.enable }}
+    {{ partial "info.html" . }}
     {{ end }}
-
-
-    {{ if .Site.Params.services.enable }}
-      {{ partial "services.html" . }}
+<!--    Peserta -->
+    {{ if .Site.Params.peserta.enable }}
+    {{ partial "peserta.html" . }}
     {{ end }}
-
-
-    {{ if .Site.Params.portfolio.enable }}
-      {{ partial "portfolio.html" . }}
+<!--    Berita  -->
+    {{ if .Site.Params.berita.enable }}
+    {{ partial "berita.html" . }}
     {{ end }}
-
-    {{ if .Site.Params.team.enable }}
-      {{ partial "team.html" . }}
+<!--    Galeri -->
+    {{ if .Site.Params.galeri.enable }}
+    {{ partial "galeri.html" . }}
     {{ end }}
+<!--    Kontak  -->
+    {{ if .Site.Params.kontak.enable }}
+    {{ partial "kontak.html" . }}
+    {{ end }}
+<!--&lt;!&ndash;    Daftar  &ndash;&gt;-->
+<!--    {{ if .Site.Params.daftar.enable }}-->
+<!--    {{ partial "daftar.html" . }}-->
+<!--    {{ end }}-->
+
+
+<!--    {{ if .Site.Params.about.enable }}-->
+<!--      {{ partial "about.html" . }}-->
+<!--    {{ end }}-->
+
+
+<!--    {{ if .Site.Params.contact.enable }}-->
+<!--    {{ partial "contact.html" . }}-->
+<!--    {{ end }}-->
+
+
+<!--    {{ if .Site.Params.services.enable }}-->
+<!--      {{ partial "services.html" . }}-->
+<!--    {{ end }}-->
+
+
+<!--    {{ if .Site.Params.portfolio.enable }}-->
+<!--      {{ partial "portfolio.html" . }}-->
+<!--    {{ end }}-->
+
+<!--    {{ if .Site.Params.team.enable }}-->
+<!--      {{ partial "team.html" . }}-->
+<!--    {{ end }}-->
 
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}

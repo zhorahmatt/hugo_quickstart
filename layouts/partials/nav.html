@@ -35,37 +35,49 @@
           </li>
         {{ end }}
 
-
-        {{ if .Site.Params.about.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
+        <!--    Beranda   -->
+        {{ if .Site.Params.beranda.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#beranda">{{ with .Site.Params.navigation.beranda }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
-
-
-        {{ if .Site.Params.services.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
-          </li>
+        <!--    Info Event -->
+        {{ if .Site.Params.info.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#infoevent">{{ with .Site.Params.navigation.info }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
-
-        {{ if .Site.Params.portfolio.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
-          </li>
+        <!--    Peserta -->
+        {{ if .Site.Params.peserta.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#peserta">{{ with .Site.Params.navigation.peserta }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
-
-        {{ if .Site.Params.team.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-          </li>
+        <!--    Berita  -->
+        {{ if .Site.Params.berita.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#berita">{{ with .Site.Params.navigation.berita }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
-
-        {{ if .Site.Params.contact.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
-          </li>
+        <!--    Galeri -->
+        {{ if .Site.Params.galeri.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#galeri">{{ with .Site.Params.navigation.galeri }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
+        <!--    Kontak  -->
+        {{ if .Site.Params.kontak.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#kontak">{{ with .Site.Params.navigation.kontak }}{{ . }}{{ end }}</a>
+        </li>
+        {{ end }}
+<!--        &lt;!&ndash;    Daftar  &ndash;&gt;-->
+<!--        {{ if .Site.Params.daftar.enable }}-->
+<!--        <li>-->
+<!--          <a class="page-scroll" href="{{ .Site.BaseURL }}#daftar">{{ with .Site.Params.navigation.daftar }}{{ . }}{{ end }}</a>-->
+<!--        </li>-->
+<!--        {{ end }}-->
+
 
         {{ range .Site.Menus.postpend }}
           <li>

@@ -1,0 +1,13 @@
+- logo dalam bentuk svg
+- gambar yang sudah di kompress untuk di tampilkan
+- background yang pass
+- menu-menu yang fix
+    - beranda
+    - Info Event
+    - Peserta
+    - Hotel
+    - Berita
+    - Galeri
+    - Kontak
+    - Daftar
+- link daftar google form

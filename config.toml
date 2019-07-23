@@ -48,7 +48,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Ma'Seli"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "logo.jpeg"
 
     services = "Info Event"
     portfolio = "Peserta"
@@ -58,7 +58,7 @@ googleAnalytics = ""
 
     #new content
     beranda = "Beranda"
-    info = "Info Kegiatan"
+    info = "Info Event"
     peserta = "Peserta"
     berita = "Berita"
     galeri = "Galeri"
@@ -87,16 +87,18 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg-old.jpg' in
     # the 'static/img' folder.
-    title = "dengan Sepeda Lipat"
-    subtitle = "Jelajah Sulawesi Selatan"
-    buttonText = "Registrasi"
+    title = "Ma'Seli"
+    subtitle = "Geopark Celebes Explorer 2019"
+    buttonText = "Daftar"
 
+  [params.beranda]
+    enable = true
+    title = "Beranda"
 
-  # Info Event
   [params.info]
-      enable = true
-      title = "Info Event"
-      subtitle = "Dapatkan beragam infomasi tentang Ma'Seli"
+    enable = true
+    title = "Info Event"
+    subtitle = "Dapatkan beragam infomasi tentang Ma'Seli"
 
       [[params.info.row]]
 
@@ -117,6 +119,27 @@ googleAnalytics = ""
         title = "Wisata Makanan"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         url = "#"
+
+  [params.peserta]
+    enable = true
+    title = "Peserta"
+
+  [params.berita]
+    enable = true
+    title = "Berita"
+
+  [params.galeri]
+    enable = true
+    title = "Galeri"
+
+  [params.kontak]
+    enable = true
+    title = "Kontak"
+
+  [params.daftar]
+    enable = true
+    title = "Daftar"
+
 
   # Services section
   [params.services]

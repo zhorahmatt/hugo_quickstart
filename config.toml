@@ -85,7 +85,7 @@ googleAnalytics = ""
 
   # Hero section
   [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # To change the background image of the hero, replace 'header-bg-old.jpg' in
     # the 'static/img' folder.
     title = "dengan Sepeda Lipat"
     subtitle = "Jelajah Sulawesi Selatan"
@@ -252,9 +252,9 @@ She worked at Pied Piper for years until they went belly up."""
     [params.clients_list]
       enable = true
       # Possibility to center items
-      #center = true
+      center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Our Sponsors"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
@@ -274,6 +274,21 @@ She worked at Pied Piper for years until they went belly up."""
       [[params.clients]]
         logo = "creative-market.jpg"
         link = "#"
+      [[params.clients]]
+          logo = "envato.jpg"
+          link = "#"
+
+        [[params.clients]]
+          logo = "designmodo.jpg"
+          link = "#"
+
+        [[params.clients]]
+          logo = "themeforest.jpg"
+          link = "#"
+
+        [[params.clients]]
+          logo = "creative-market.jpg"
+          link = "#"
 
   # Contact section
   [params.contact]

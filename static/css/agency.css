@@ -242,7 +242,8 @@ fieldset[disabled] .btn-xl.active {
 
 #custom-link {
     outline: #000000;
-    color: #fed136;
+    color: #000000;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a {

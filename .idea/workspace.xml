@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9db8f6-fb7d-445f-9055-a63c82185fef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" afterDir="false" />
     </list>
@@ -14,6 +15,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/beranda.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="10" column="67" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="10" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -25,8 +35,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="20" column="158" selection-start-line="20" selection-start-column="158" selection-end-line="20" selection-end-column="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -35,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,7 +116,6 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/layouts/partials/nav.html" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/kebutuhan.txt" />
         <option value="$PROJECT_DIR$/static/js/agency.js" />
         <option value="$PROJECT_DIR$/layouts/partials/js.html" />
@@ -105,6 +123,7 @@
         <option value="$PROJECT_DIR$/static/css/agency.css" />
         <option value="$PROJECT_DIR$/layouts/partials/peserta.html" />
         <option value="$PROJECT_DIR$/layouts/partials/galeri.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -290,20 +309,6 @@
     <entry file="file://$PROJECT_DIR$/themes/hugo-agency-theme/images/screenshot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/beranda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -387,7 +392,7 @@
     <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -405,10 +410,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/hero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/beranda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" column="67" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="20" column="158" selection-start-line="20" selection-start-column="158" selection-end-line="20" selection-end-column="158" />
         </state>
       </provider>
     </entry>

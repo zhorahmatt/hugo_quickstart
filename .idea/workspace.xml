@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9db8f6-fb7d-445f-9055-a63c82185fef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/layouts/partials/galeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/galeri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/peserta.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/peserta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/22.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" afterDir="false" />
     </list>
@@ -30,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="332" column="13" selection-start-line="332" selection-start-column="10" selection-end-line="332" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -57,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/galeri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="268">
+              <caret line="24" column="118" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -392,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="332" column="13" selection-start-line="332" selection-start-column="10" selection-end-line="332" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -415,8 +400,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/galeri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="268">
+          <caret line="24" column="118" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
         </state>
       </provider>
     </entry>

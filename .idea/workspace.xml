@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1c9db8f6-fb7d-445f-9055-a63c82185fef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/layouts/partials/galeri.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/galeri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/kontak.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/kontak.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/peserta.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/peserta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/agency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/agency.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/agency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/22.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" afterDir="false" />
     </list>
@@ -21,13 +24,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="240">
+              <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
@@ -54,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/partials/galeri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="433">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,10 +109,10 @@
         <option value="$PROJECT_DIR$/kebutuhan.txt" />
         <option value="$PROJECT_DIR$/static/js/agency.js" />
         <option value="$PROJECT_DIR$/layouts/partials/js.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/galeri.html" />
         <option value="$PROJECT_DIR$/layouts/partials/kontak.html" />
         <option value="$PROJECT_DIR$/static/css/agency.css" />
         <option value="$PROJECT_DIR$/layouts/partials/peserta.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/galeri.html" />
       </list>
     </option>
   </component>
@@ -154,6 +157,12 @@
               <item name="hugo_quickstart" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hugo_quickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hugo_quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,17 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
+    <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/galeri.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="172">
+          <caret line="332" column="13" selection-start-line="332" selection-start-column="10" selection-end-line="332" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -404,10 +406,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
+    <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="332" column="13" selection-start-line="332" selection-start-column="10" selection-end-line="332" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/galeri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>

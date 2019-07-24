@@ -11,3 +11,14 @@
     - Kontak
     - Daftar
 - link daftar google form
+
+
+list to do
+- form pendaftaran -> DONE
+- email sending
+- image compress
+- logo svg/png
+
+
+
+

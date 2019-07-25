@@ -79,7 +79,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "https://aaaa.com"
+      url = "http://bit.ly/maseli-2019"
       name = "Daftar"
       weight = 10
 

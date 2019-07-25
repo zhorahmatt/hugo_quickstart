@@ -25,7 +25,7 @@ googleAnalytics = ""
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
-  link_registration = "https://aaaa.com"
+  link_registration = "http://bit.ly/maseli-2019"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome

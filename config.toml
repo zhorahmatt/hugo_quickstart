@@ -49,7 +49,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Ma'Seli"
     # Optional logo as brand stored in img/
-    logo = "logo.jpeg"
+    logo = "logo.png"
 
     services = "Info Event"
     portfolio = "Peserta"
@@ -271,7 +271,12 @@ googleAnalytics = ""
       center = true
       # Optional client title specifying the involvement
       title = "Our Sponsors"
+      second_title = "Organized By"
+      second_logo = "slim.png"
 
+    [[params.second_clients]]
+        logo = "slim.png"
+        link = "#"
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
@@ -292,18 +297,6 @@ googleAnalytics = ""
         link = "#"
       [[params.clients]]
           logo = "envato.jpg"
-          link = "#"
-
-        [[params.clients]]
-          logo = "designmodo.jpg"
-          link = "#"
-
-        [[params.clients]]
-          logo = "themeforest.jpg"
-          link = "#"
-
-        [[params.clients]]
-          logo = "creative-market.jpg"
           link = "#"
 
   # Contact section

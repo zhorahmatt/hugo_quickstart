@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9db8f6-fb7d-445f-9055-a63c82185fef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/peserta.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/peserta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/kontak.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/kontak.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-agency-theme/exampleSite/config.toml" afterDir="false" />
     </list>
@@ -18,13 +17,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="645">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/kontak.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -77,12 +85,12 @@
         <option value="$PROJECT_DIR$/kebutuhan.txt" />
         <option value="$PROJECT_DIR$/static/js/agency.js" />
         <option value="$PROJECT_DIR$/layouts/partials/js.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/kontak.html" />
         <option value="$PROJECT_DIR$/static/css/agency.css" />
         <option value="$PROJECT_DIR$/layouts/partials/galeri.html" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/layouts/partials/peserta.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/kontak.html" />
       </list>
     </option>
   </component>
@@ -296,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/kontak.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/beranda.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -364,17 +365,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/peserta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/kontak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
         </state>
       </provider>
     </entry>

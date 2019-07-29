@@ -153,19 +153,19 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
       title = "Hotel"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "-"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Transportasi"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "-"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Wisata Makanan"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "-"
       url = "#"
 
   # Portfolio section

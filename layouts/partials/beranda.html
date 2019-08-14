@@ -35,7 +35,7 @@
                     {{ end }}
 
                     <li class="timeline-inverted">
-                        <a target="_blank" href="{{ .Site.Params.link_registration}}">
+                        <a data-toggle="modal" data-target="#exampleModal">
                             <div class="timeline-image">
                                 <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
                             </div>

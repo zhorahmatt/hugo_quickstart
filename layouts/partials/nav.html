@@ -80,8 +80,9 @@
 
 
         {{ range .Site.Menus.postpend }}
+        <!-- Button trigger modal -->
           <li>
-            <a target="_blank" id="custom-link" style="background-color: #fec503" href="{{ .URL }}">{{ .Name }}</a>
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" target="_blank" id="custom-link" style="background-color: #fec503">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
